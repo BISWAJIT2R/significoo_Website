@@ -1,5 +1,6 @@
 *::selection {
-   background: salmon
+   background-color: #EF9D71;
+   color: #f7f7f7
 }
 @tailwind base;
 @tailwind components;
@@ -20,4 +21,9 @@
 body[theme] .section{
   background-color: black;
   color: #f7f7f7;
+}
+
+body[theme= "darkpink"] .section {
+  background-color: #EF9D71;
+  color: #000;
 }
